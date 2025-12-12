@@ -10,7 +10,7 @@ parallel-jobs = 1
 
 [YouTube]
 build-mode = "both"                                                   
-excluded-patches = ""                                                 
+excluded-patches = ""'Custom branding icon for YouTube' 'Custom branding name for YouTube'""                                                 
 included-patches = "" 
 patcher-args = " -e 'GmsCore support' -OpackageNameYouTube='yt.rvx.noname.exe' "
 version = "auto"                                                      
@@ -22,7 +22,7 @@ module-prop-name = "yt-rvx"
 arch = "both"
 build-mode = "both"
 app-name = "YouTube-Music"
-excluded-patches = ""
+excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
 included-patches = "'Disable music video in album'"
 patcher-args = " -e 'GmsCore support' -OpackageNameYouTubeMusic='ytm.rvx.noname.exe' "
 version = "auto"
