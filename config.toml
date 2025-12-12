@@ -10,7 +10,7 @@ parallel-jobs = 1
 
 [YouTube]
 build-mode = "both"                                                   
-excluded-patches = ""'Custom branding icon for YouTube' 'Custom branding name for YouTube'""                                                 
+excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
 included-patches = "" 
 patcher-args = " -e 'GmsCore support' -OpackageNameYouTube='yt.rvx.noname.exe' "
 version = "auto"                                                      
